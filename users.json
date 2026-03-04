@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1770780291794",
+    "username": "admin1",
+    "email": "markzod1987@gmail.com",
+    "password": "$2a$10$rxCdQsuJQOwUE4yDGfvYdOa6PrCnd5k7VnsowTZ/1frbmb5zfWrOy",
+    "role": "admin",
+    "createdAt": "2026-02-11T03:24:51.794Z"
+  },
+  {
+    "id": "1770781374270",
+    "username": "User1",
+    "email": "aaa@gmail.com",
+    "password": "$2a$10$/MYKHEBCjc1KBfwLkt6gFu92DgPlEEK0CcOgnJ2n2YPrmF8mPnPkq",
+    "role": "company_user",
+    "createdAt": "2026-02-11T03:42:54.270Z",
+    "companyId": "branch1",
+    "companyName": "สาขา 1",
+    "updatedAt": "2026-02-13T03:43:29.905Z",
+    "updatedBy": "1770780291794"
+  },
+  {
+    "id": "1770886474309",
+    "username": "User2",
+    "email": "aa@gmail.com",
+    "phone": "0123456789",
+    "password": "$2a$10$kNvuXHQwFidHWoo6..wWSOmzzT8k6jowzZwlwbOOR95qIA5ifwOSO",
+    "role": "company_user",
+    "createdAt": "2026-02-12T08:54:34.309Z",
+    "companyId": "branch2",
+    "companyName": "สาขา 2",
+    "updatedAt": "2026-02-13T03:43:26.871Z",
+    "updatedBy": "1770780291794"
+  },
+  {
+    "id": "1770951313649",
+    "username": "User3",
+    "email": "mark@gmail.com",
+    "phone": "0624943117",
+    "password": "$2a$10$HA4iS7BOGFpt7wowy.Avluew98kvTx3bQwI6yKMMg48TQsjeRSqV2",
+    "role": "company_user",
+    "createdAt": "2026-02-13T02:55:13.649Z",
+    "companyId": "branch3",
+    "companyName": "สาขา 3",
+    "updatedAt": "2026-02-13T03:43:48.264Z",
+    "updatedBy": "1770780291794"
+  }
+]

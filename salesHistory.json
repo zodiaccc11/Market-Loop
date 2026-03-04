@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1770791495730-sale",
+    "orderId": "1770791495689",
+    "userId": "1770780291794",
+    "username": "admin1",
+    "items": [
+      {
+        "productId": "1770777486529",
+        "productName": "ข้าวกะเพรา",
+        "quantity": 3,
+        "price": 69,
+        "totalPrice": 207
+      },
+      {
+        "productId": "1770782227631",
+        "productName": "เต่าบิน",
+        "quantity": 2,
+        "price": 45,
+        "totalPrice": 90
+      }
+    ],
+    "totalPrice": 297,
+    "totalItems": 5,
+    "saleDate": "2026-02-11T06:31:35.730Z",
+    "createdAt": "2026-02-11T06:31:35.730Z"
+  },
+  {
+    "id": "1770792192298-sale",
+    "orderId": "1770792192275",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770784970794",
+        "productName": "ข้าวผัด ไก่",
+        "quantity": 3,
+        "price": 69,
+        "totalPrice": 207
+      }
+    ],
+    "totalPrice": 207,
+    "totalItems": 3,
+    "saleDate": "2026-02-11T06:43:12.298Z",
+    "createdAt": "2026-02-11T06:43:12.298Z"
+  },
+  {
+    "id": "1770882974617-sale",
+    "orderId": "1770882974524",
+    "userId": "1770780291794",
+    "username": "admin1",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 1,
+        "price": 150,
+        "totalPrice": 150
+      }
+    ],
+    "totalPrice": 150,
+    "totalItems": 1,
+    "saleDate": "2026-02-12T07:56:14.617Z",
+    "createdAt": "2026-02-12T07:56:14.617Z"
+  },
+  {
+    "id": "1770884593374-sale",
+    "orderId": "1770884593331",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 2,
+        "price": 150,
+        "totalPrice": 300
+      }
+    ],
+    "totalPrice": 300,
+    "totalItems": 2,
+    "saleDate": "2026-02-12T08:23:13.375Z",
+    "createdAt": "2026-02-12T08:23:13.375Z"
+  },
+  {
+    "id": "1770885326258-sale",
+    "orderId": "1770885326224",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 2,
+        "price": 150,
+        "totalPrice": 300
+      }
+    ],
+    "totalPrice": 300,
+    "totalItems": 2,
+    "saleDate": "2026-02-12T08:35:26.258Z",
+    "createdAt": "2026-02-12T08:35:26.258Z"
+  },
+  {
+    "id": "1770886250163-sale",
+    "orderId": "1770886250126",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 3,
+        "price": 150,
+        "totalPrice": 450
+      }
+    ],
+    "totalPrice": 450,
+    "totalItems": 3,
+    "saleDate": "2026-02-12T08:50:50.163Z",
+    "createdAt": "2026-02-12T08:50:50.163Z"
+  }
+]

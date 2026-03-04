@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1770792958276",
+    "name": "แป้ง",
+    "description": "แป้งสารี",
+    "price": 150,
+    "cost": 0,
+    "importCost": 150,
+    "categoryId": "",
+    "stock": 0,
+    "image": null,
+    "createdAt": "2026-02-11T06:55:58.276Z",
+    "createdBy": "1770780291794",
+    "updatedAt": "2026-02-12T08:51:11.827Z"
+  },
+  {
+    "id": "1770886880226",
+    "name": "Red ValVet",
+    "description": "",
+    "price": 95,
+    "cost": 2000,
+    "importCost": 1200,
+    "categoryId": "1770782794167",
+    "stock": 8,
+    "image": "/uploads/product-1770886880152-468142468.jpg",
+    "createdAt": "2026-02-12T09:01:20.227Z",
+    "createdBy": "1770780291794",
+    "updatedAt": "2026-02-13T02:56:39.670Z"
+  },
+  {
+    "id": "1770954288556",
+    "name": "User1",
+    "description": "",
+    "price": 1111,
+    "cost": 1111,
+    "importCost": 111,
+    "categoryId": "1770777076580",
+    "stock": 1111,
+    "image": null,
+    "createdAt": "2026-02-13T03:44:48.556Z",
+    "createdBy": "1770781374270",
+    "companyId": "branch1",
+    "companyName": "สาขา 1"
+  },
+  {
+    "id": "1770954342596",
+    "name": "User2",
+    "description": "",
+    "price": 1111,
+    "cost": 1111,
+    "importCost": 1111,
+    "categoryId": "1770782794167",
+    "stock": 1111,
+    "image": null,
+    "createdAt": "2026-02-13T03:45:42.596Z",
+    "createdBy": "1770886474309",
+    "companyId": "branch2",
+    "companyName": "สาขา 2"
+  }
+]

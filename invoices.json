@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1770792320920",
+    "invoiceNumber": "INV-1770792320920",
+    "orderId": "1770792192275",
+    "orderNumber": "ORD-1770792192275",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770784970794",
+        "productName": "ข้าวผัด ไก่",
+        "quantity": 3,
+        "price": 69,
+        "totalPrice": 207
+      }
+    ],
+    "subtotal": 207,
+    "tax": 20,
+    "discount": 0,
+    "totalAmount": 227,
+    "paidAmount": 227,
+    "remainingAmount": 0,
+    "status": "paid",
+    "issueDate": "2026-02-11T06:45:20.921Z",
+    "dueDate": "2026-02-20T00:00:00.000Z",
+    "notes": "",
+    "createdAt": "2026-02-11T06:45:20.921Z",
+    "updatedAt": "2026-02-11T06:45:46.501Z",
+    "paidDate": "2026-02-11T06:45:46.486Z"
+  }
+]

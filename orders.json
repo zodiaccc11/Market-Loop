@@ -1,0 +1,188 @@
+[
+  {
+    "id": "1770791495689",
+    "orderNumber": "ORD-1770791495689",
+    "userId": "1770780291794",
+    "username": "admin1",
+    "items": [
+      {
+        "productId": "1770777486529",
+        "productName": "ข้าวกะเพรา",
+        "quantity": 3,
+        "price": 69,
+        "cost": 0,
+        "importCost": 0,
+        "totalPrice": 207,
+        "totalCost": 0,
+        "totalImportCost": 0
+      },
+      {
+        "productId": "1770782227631",
+        "productName": "เต่าบิน",
+        "quantity": 2,
+        "price": 45,
+        "cost": 0,
+        "importCost": 0,
+        "totalPrice": 90,
+        "totalCost": 0,
+        "totalImportCost": 0
+      }
+    ],
+    "totalPrice": 297,
+    "totalCost": 0,
+    "totalImportCost": 0,
+    "profit": 297,
+    "status": "completed",
+    "paymentStatus": "unpaid",
+    "deliveryStatus": "pending",
+    "createdAt": "2026-02-11T06:31:35.689Z",
+    "updatedAt": "2026-02-11T06:32:33.609Z",
+    "completedAt": "2026-02-11T06:32:33.609Z"
+  },
+  {
+    "id": "1770792192275",
+    "orderNumber": "ORD-1770792192275",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770784970794",
+        "productName": "ข้าวผัด ไก่",
+        "quantity": 3,
+        "price": 69,
+        "cost": 0,
+        "importCost": 0,
+        "totalPrice": 207,
+        "totalCost": 0,
+        "totalImportCost": 0
+      }
+    ],
+    "totalPrice": 207,
+    "totalCost": 0,
+    "totalImportCost": 0,
+    "profit": 207,
+    "status": "completed",
+    "paymentStatus": "paid",
+    "deliveryStatus": "delivered",
+    "createdAt": "2026-02-11T06:43:12.275Z",
+    "updatedAt": "2026-02-11T06:51:16.346Z",
+    "invoiceId": "1770792320920",
+    "completedAt": "2026-02-11T06:51:16.346Z"
+  },
+  {
+    "id": "1770882974524",
+    "orderNumber": "ORD-1770882974524",
+    "userId": "1770780291794",
+    "username": "admin1",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 1,
+        "price": 150,
+        "cost": 0,
+        "importCost": 150,
+        "totalPrice": 150,
+        "totalCost": 0,
+        "totalImportCost": 150
+      }
+    ],
+    "totalPrice": 150,
+    "totalCost": 0,
+    "totalImportCost": 150,
+    "profit": 0,
+    "status": "completed",
+    "paymentStatus": "unpaid",
+    "deliveryStatus": "delivered",
+    "createdAt": "2026-02-12T07:56:14.524Z",
+    "updatedAt": "2026-02-12T07:58:49.014Z",
+    "completedAt": "2026-02-12T07:58:49.014Z"
+  },
+  {
+    "id": "1770884593331",
+    "orderNumber": "ORD-1770884593331",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 2,
+        "price": 150,
+        "cost": 0,
+        "importCost": 150,
+        "totalPrice": 300,
+        "totalCost": 0,
+        "totalImportCost": 300
+      }
+    ],
+    "totalPrice": 300,
+    "totalCost": 0,
+    "totalImportCost": 300,
+    "profit": 0,
+    "status": "completed",
+    "paymentStatus": "unpaid",
+    "deliveryStatus": "pending",
+    "createdAt": "2026-02-12T08:23:13.331Z",
+    "updatedAt": "2026-02-12T08:24:40.404Z",
+    "completedAt": "2026-02-12T08:24:40.404Z"
+  },
+  {
+    "id": "1770885326224",
+    "orderNumber": "ORD-1770885326224",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 2,
+        "price": 150,
+        "cost": 0,
+        "importCost": 150,
+        "totalPrice": 300,
+        "totalCost": 0,
+        "totalImportCost": 300
+      }
+    ],
+    "totalPrice": 300,
+    "totalCost": 0,
+    "totalImportCost": 300,
+    "profit": 0,
+    "status": "completed",
+    "paymentStatus": "paid",
+    "deliveryStatus": "pending",
+    "createdAt": "2026-02-12T08:35:26.224Z",
+    "updatedAt": "2026-02-12T08:36:59.479Z",
+    "completedAt": "2026-02-12T08:36:59.479Z"
+  },
+  {
+    "id": "1770886250126",
+    "orderNumber": "ORD-1770886250126",
+    "userId": "1770781374270",
+    "username": "aaa",
+    "items": [
+      {
+        "productId": "1770792958276",
+        "productName": "แป้ง",
+        "quantity": 3,
+        "price": 150,
+        "cost": 0,
+        "importCost": 150,
+        "totalPrice": 450,
+        "totalCost": 0,
+        "totalImportCost": 450
+      }
+    ],
+    "totalPrice": 450,
+    "totalCost": 0,
+    "totalImportCost": 450,
+    "profit": 0,
+    "status": "completed",
+    "paymentStatus": "paid",
+    "deliveryStatus": "pending",
+    "createdAt": "2026-02-12T08:50:50.126Z",
+    "updatedAt": "2026-02-12T08:52:36.734Z",
+    "completedAt": "2026-02-12T08:52:36.734Z"
+  }
+]
