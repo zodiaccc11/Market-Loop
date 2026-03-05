@@ -279,11 +279,11 @@ app.use(express.static('public', {
 app.use('/uploads', express.static('uploads'));
 
 // สร้างโฟลเดอร์สำหรับเก็บข้อมูล
-const dataDir = path.join(__dirname, 'data');
-const uploadsDir = path.join(__dirname, 'uploads');
+const dataDir = '/tmp/data';
+const uploadsDir = '/tmp/uploads';
 
-if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
-if (!fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir);
+if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+if (!fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true });
 
 // ไฟล์ข้อมูล
 const usersFile = path.join(dataDir, 'users.json');
@@ -317,18 +317,17 @@ function writeJSON(file, data) {
 
 // ตั้งค่า multer สำหรับอัปโหลดรูปภาพ
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'uploads/');
+  destination: function (req, file, cb) {
+    cb(null, '/tmp/')
   },
-  filename: (req, file, cb) => {
-    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    cb(null, 'product-' + uniqueSuffix + path.extname(file.originalname));
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + path.extname(file.originalname))
   }
-});
+})
 
 const qrCodeStorage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'uploads/');
+    cb(null, '/tmp/uploads/');
   },
   filename: (req, file, cb) => {
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
